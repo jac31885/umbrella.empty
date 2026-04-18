@@ -1,0 +1,18 @@
+{
+  "color": {
+    "shades": {
+      "black": {
+        "$type": "color",
+        "$value": {
+          "value": "#2a2a2a"
+        },
+        "$description": "Testing description",
+        "$extensions": {
+          "source": "portal",
+          "tokenPath": "color.shades.black",
+          "tokenName": "Black"
+        }
+      }
+    }
+  }
+}
