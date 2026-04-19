@@ -1,0 +1,25 @@
+{
+  "color": {
+    "shade": {
+      "off-white": {
+        "$type": "color",
+        "$value": {
+          "space": "srgb",
+          "value": "#FFFFFF",
+          "modifications": [
+            {
+              "type": "darken",
+              "space": "srgb",
+              "amount": 5
+            }
+          ]
+        },
+        "$extensions": {
+          "source": "portal",
+          "tokenName": "Off white",
+          "tokenPath": "color.shade.off-white"
+        }
+      }
+    }
+  }
+}
