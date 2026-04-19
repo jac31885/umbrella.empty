@@ -1,0 +1,22 @@
+{
+  "dimension": {
+    "base": {
+      "$type": "dimension",
+      "$value": "4",
+      "$extensions": {
+        "source": "portal",
+        "tokenName": "Base",
+        "tokenPath": "dimension.base"
+      }
+    },
+    "small": {
+      "$type": "dimension",
+      "$value": "0",
+      "$extensions": {
+        "source": "portal",
+        "tokenName": "Small",
+        "tokenPath": "dimension.small"
+      }
+    }
+  }
+}
