@@ -1,11 +1,52 @@
 {
   "color": {
     "shade": {
+      "black": {
+        "$type": "color",
+        "$value": {
+          "value": "#000000"
+        },
+        "$extensions": {
+          "source": "portal",
+          "tokenName": "Black",
+          "tokenPath": "color.shade.black"
+        }
+      },
+      "white": {
+        "$type": "color",
+        "$value": {
+          "value": "#FFFFFF"
+        },
+        "$extensions": {
+          "source": "portal",
+          "tokenName": "White",
+          "tokenPath": "color.shade.white"
+        }
+      },
+      "off-black": {
+        "$type": "color",
+        "$value": {
+          "space": "srgb",
+          "value": "{color.shade.black}",
+          "modifications": [
+            {
+              "type": "lighten",
+              "space": "srgb",
+              "amount": 5
+            }
+          ]
+        },
+        "$extensions": {
+          "source": "portal",
+          "tokenName": "Off Black",
+          "tokenPath": "color.shade.off-black"
+        }
+      },
       "off-white": {
         "$type": "color",
         "$value": {
           "space": "srgb",
-          "value": "#FFFFFF",
+          "value": "{color.shade.white}",
           "modifications": [
             {
               "type": "darken",
