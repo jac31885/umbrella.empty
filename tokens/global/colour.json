@@ -32,7 +32,7 @@
             {
               "type": "lighten",
               "space": "srgb",
-              "amount": 5
+              "amount": 30
             }
           ]
         },
