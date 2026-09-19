@@ -11,7 +11,7 @@
     },
     "small": {
       "$type": "dimension",
-      "$value": "0",
+      "$value": "2",
       "$extensions": {
         "source": "portal",
         "tokenName": "Small",
